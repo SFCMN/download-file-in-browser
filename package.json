@@ -1,0 +1,26 @@
+{
+  "name": "download-file-in-browser",
+  "version": "0.0.1-alpha",
+  "description": "Download the file from the specified URL. [Only support from browser side]",
+  "keywords": [
+    "download",
+    "files",
+    "browser"
+  ],
+  "homepage": "https://github.com/SFCMN/download-file-in-browser",
+  "license": "MIT",
+  "author": {
+    "name": "Wang Bo",
+    "email": "wsfcmn@163.com",
+    "url": "https://github.com/SFCMN"
+  },
+  "main": "download.js",
+  "repository": "https://github.com/SFCMN/download-file-in-browser.git",
+  "bugs": {
+    "email": "wsfcmn@163.com"
+  },
+  "private": false,
+  "files": [
+    "download.js"
+  ]
+}
