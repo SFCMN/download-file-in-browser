@@ -1,5 +1,5 @@
 {
-  "name": "download-file-in-browser",
+  "name": "@sfcmn/download-file-in-browser",
   "version": "0.0.1-alpha",
   "description": "Download the file from the specified URL. [Only support from browser side]",
   "keywords": [
@@ -10,17 +10,20 @@
   "homepage": "https://github.com/SFCMN/download-file-in-browser",
   "license": "MIT",
   "author": {
-    "name": "Wang Bo",
+    "name": "sfcmn",
     "email": "wsfcmn@163.com",
     "url": "https://github.com/SFCMN"
   },
   "main": "download.js",
-  "repository": "https://github.com/SFCMN/download-file-in-browser.git",
+  "repository": "git://github.com/SFCMN/download-file-in-browser.git",
   "bugs": {
     "email": "wsfcmn@163.com"
   },
   "private": false,
   "files": [
     "download.js"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/SFCMN"
+  }
 }
