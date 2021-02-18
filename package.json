@@ -1,6 +1,6 @@
 {
   "name": "@sfcmn/download-file-in-browser",
-  "version": "0.0.1-alpha",
+  "version": "0.0.2",
   "description": "Download the file from the specified URL. [Only support from browser side]",
   "keywords": [
     "download",

@@ -26,9 +26,6 @@ const downloadDifferentOriginFile = (url, fileName, fileSuffix) => {
 };
 
 const downloadFileFromDataURL = (dataURL, fileName, fileSuffix) => {
-    console.log(dataURL);
-    console.log(fileName);
-    console.log(fileSuffix);
     const anchorElement = document.createElement("a");
     anchorElement.href = dataURL;
     anchorElement.download = `${fileName}.${fileSuffix}`;
@@ -60,7 +57,7 @@ const toAbsoluteURL = (url) => {
     return anchorElement.href;
 };
 
-export const download = (url, fileName, fileSuffix) => {
+const download = (url, fileName, fileSuffix) => {
     const absoluteURL = toAbsoluteURL(url);
     if (isSameOrigin(absoluteURL)) {
         downloadSameOriginFile(absoluteURL, fileName, fileSuffix);
@@ -68,3 +65,5 @@ export const download = (url, fileName, fileSuffix) => {
         downloadDifferentOriginFile(absoluteURL, fileName, fileSuffix);
     }
 };
+
+window.download = download;
